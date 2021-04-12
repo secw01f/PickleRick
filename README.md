@@ -7,4 +7,4 @@ Tool for creating Base64 encoded payloads for exploiting insecure Python Pickle 
 # Installation
 1. git clone https://github.com/secw01f/PickleRick
 2. cd PickleRick
-3. pip install -r requirements.txt
+3. python picklerick.py
