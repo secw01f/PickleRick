@@ -28,7 +28,7 @@ if not sys.argv[1:]:
     sys.exit()
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:], 'hp:', ['help', 'payload'])
+    opts, args = getopt.getopt(sys.argv[1:], 'hp:os', ['help', 'payload', 'os', 'subprocess'])
 except getopt.GetoptError as err:
     print(str(err))
     usage()
